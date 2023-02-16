@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+//import { Link } from "react-router-dom";
 
 
 //Structuring Navbar with the help of Bootstrap-->
@@ -19,6 +20,19 @@ export class NavBar extends Component {
                                 <a className="nav-link " aria-current="page" href="/Home">Home</a>
 
                                 {/* Still working on adding sports and technology links because Github doesn't support router--> */}
+                               
+
+//These link will only work in React router because github doesn't fully support router so I commented them-->
+
+
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/home">Home</Link></li>
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/business">Business</Link></li>
+//                                 {/* <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/general">General</Link></li> */}
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/health">Health</Link></li>
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/technology">Technology</Link></li>
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/sports">Sports</Link></li>
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/science">Science</Link></li>
+//                                 <li className="nav-item"> <Link className="nav-link " aria-current="page" to="/entertainment">Entertainment</Link></li>
 
                                 <a className="nav-link" href="#">Sports</a>
                                 <a className="nav-link" href="#">Technology</a>
